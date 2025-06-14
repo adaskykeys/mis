@@ -31,11 +31,11 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "miss"         # 用户名
-UUID = "03b2c4b9-5b19-4ff1-b4a8-6f8afcc9b672"                     # UUID，留空则自动生成
-PORT = 25616                   # Vmess端口，留空或0则自动生成
-DOMAIN = "mis.13901390.xyz"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiNDEyMzgyOTJkMDE0ZmZhM2FlNmQ4YjE2MGZiZDAxMTkiLCJ0IjoiMzNkZDMyNmEtNjZiZS00ZjIyLTkzOTctZmEyOGVlZDJkMzJhIiwicyI6IlpEQm1OR0psTkdFdE1URTNaUzAwTVRCaUxUaGtPRGN0TXpsa1kySTVNekkwTWpFeiJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+USER_NAME = "appusas"         # 用户名
+UUID = "599f096c-76b6-4088-b887-25959b2ee44f"                     # UUID，留空则自动生成
+PORT = 25618                   # Vmess端口，留空或0则自动生成
+DOMAIN = "mim.ioooi.filegear-sg.me"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiZDllMGM0MGNjZDY1MzVmZWM5NGZjNDY3MjA1MzRhZDUiLCJ0IjoiNThhZWEzNTUtYTM2Mi00NTExLWE1ZmQtNzE1MzQ3OGYzZjQ2IiwicyI6IllqTmtaREZrTmpjdFpHRm1OUzAwTlRneUxXRmlNR0l0TXpnMk5qaGlZelExT0RVMyJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
